@@ -1,21 +1,15 @@
 package com.capacitacion2.capacitacion2;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[opcion] args )
-    {
-        switch (opcion) {
-		case value:
-			
-			break;
+import clase3.automatizacionPagina;
 
-		default:
-			break;
-		}
-        
+
+public class App {
+	
+	public static void main(String[] args )
+    {
+      automatizacionPagina objLanzarPagina = new automatizacionPagina();
+      objLanzarPagina.interactuarConGmail();
     }
+}
+
 
